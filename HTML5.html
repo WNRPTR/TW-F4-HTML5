@@ -5,39 +5,54 @@
     <title>HTML5</title>
 </head>
 <body>
-    <h1><img src="http://placehold.it/50x50"/>O meu blogue</h1>
-    <ul>
-        <li><a href="create_post.html" title="Criar Post" target="_blank">Criar Post</a></li>
-        <li><a href="#">Option2</a> </li>
-        <li><a href="#">Option3</a> </li>
-        <li><a href="#">Option4</a> </li>
-        <li><a href="#">Option5</a> </li>
-    </ul>
-    <section>
-        <article>
-            <h2>Eu sou o título do post 4</h2>
-            <img src="http://placehold.it/300x60"/>
-            <p>owowowowowowowowowowowowowowowowowowowowowowowowowo</p>
-        </article>
-        <article>
-            <h2>Eu sou o título do post 3</h2>
-            <p>owowowowowowowowowowowowowowowowowowowowowowowowowo</p>
-        </article>
-        <article>
-            <h2>Eu sou o título do post 2</h2>
-            <img src="http://placehold.it/600x200"/>
-        </article>
-        <article>
-            <h2>Eu sou o título do post 1</h2>
-            <p>owowowowowowowowowowowowowowowowowowowowowowowowowo</p>
-        </article>
-        <aside>
-            <p>Miguel Ferreira</p>
-            <p><br>Esmad</br></p>
-            <footer><br>&copy;Miguel Ferreira 2020</br></footer>
-        </aside>
-    </section>
-
+    <head>
+        <h1><img src="http://placehold.it/50x50"/>O meu blogue</h1>
+        <nav>
+            <ul>
+                <li><a href="create_post.html" title="Criar Post" target="_blank">Criar Post</a></li>
+                <li><a href="#post_04" title="post_04">Post_04</a> </li>
+                <li><a href="#post_03" title="post_03">Post_03</a> </li>
+                <li><a href="#post_02" title="post_02">Post_02</a> </li>
+                <li><a href="#post_01" title="post_01">Post_01</a> </li>
+            </ul>
+        </nav>
+    </head>
+    <main>
+        <section class="post">
+            <article class="post" id="post_04">
+                <h2><a href="post_04.html">Eu sou o título do post 4</a></h2>
+                <img src="http://placehold.it/300x60"/>
+                <p>owowowowowowowowowowowowowowowowowowowowowowowowowo</p>
+            </article>
+            <article class="post" id="post_03">
+                <h2><a href="post_03.html">Eu sou o título do post 3</a></h2>
+                <p>owowowowowowowowowowowowowowowowowowowowowowowowowo</p>
+            </article>
+            <article class="post" id="post_02">
+                <h2><a href="post_02.html">Eu sou o título do post 2</a></h2>
+                <img src="http://placehold.it/600x200"/>
+            </article>
+            <article class="post" id="post_01">
+                <h2><a href="post_01.html"></a>Eu sou o título do post 1</a></h2>
+                <p>owowowowowowowowowowowowowowowowowowowowowowowowowo</p>
+            </article>
+        </section>
+    </main>
+    <hr>
+    <aside class="audio">
+        <h2>Audio</h2>
+        <audio controls preload="auto">
+            <source src="https://github.com/macferreira/esmad-tw-2021/blob/main/f04/base-material/get_lucky.mp3" type="audio/mp3">
+            <source src="https://github.com/macferreira/esmad-tw-2021/blob/main/f04/base-material/get_lucky.ogg" tyoe="audio/ogg">
+        </audio>
+    </aside>
+    <hr>
+    <aside class="author">
+        <h3>Miguel Ferreira</h3>
+        <p><br>Esmad</br></p>
+    </aside>
+    <hr>
+    <footer><br>&copy;Miguel Ferreira 2020</br></footer>
 
 </body>
 </html>
